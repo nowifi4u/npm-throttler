@@ -2,7 +2,7 @@
   "name": "@nw/throttler",
   "version": "0.1.0",
   "description": "Typescript throttle library",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src",
     "lint:fix": "eslint --fix src",

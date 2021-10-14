@@ -1,0 +1,7 @@
+{
+  "testEnvironment": "node",
+  "verbose": true,
+  "testMatch": ["**/*.test.ts"],
+  "moduleDirectories": ["node_modules", "src", "test"],
+  "setupFilesAfterEnv": ["jest-extended/all"]
+}

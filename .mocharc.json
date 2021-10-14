@@ -1,0 +1,11 @@
+{
+  "diff": true,
+  "extension": ["js"],
+  "package": "./package.json",
+  "reporter": "spec",
+  "timeout": "30000",
+  "ui": "bdd",
+  "watch-files": ["test/**/*.test.js"],
+  "fail-zero": true,
+  "recursive": true
+}

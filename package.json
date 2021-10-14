@@ -9,7 +9,8 @@
     "prebuild": "npm run lint",
     "build": "rimraf dist/ && tsc",
     "pretest": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build"
   },
   "author": "Maxim Shamber",
   "files": [

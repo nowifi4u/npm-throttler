@@ -1,5 +1,5 @@
 {
-  "name": "@nw/throttler",
+  "name": "@nowifi4u/throttler",
   "version": "0.1.0",
   "description": "Typescript throttle library",
   "main": "dist/index.js",

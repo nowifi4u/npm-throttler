@@ -1,4 +1,4 @@
-import { setTimeout as sleep } from 'timers/promises';
+import { sleep } from '../src/Util';
 
 import { ThrottleManager, ThrottleInstance } from '../src/ThrottleManager';
 import { timefyFunction } from './core';

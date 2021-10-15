@@ -24,3 +24,7 @@ export function GetSetCheck(checker: (v: unknown) => boolean, opts?: PropertyDes
     });
   };
 }
+
+export function sleep(ms: number) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}

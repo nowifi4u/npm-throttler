@@ -4,9 +4,6 @@ expect.extend(matchers);
 
 import { _Function, _AsyncFunction } from './global';
 
-import { Console } from 'console';
-global.console = new Console(process.stdout, process.stderr);
-
 export interface timefyFunctionResult {
   time?: number;
   result?: any;
@@ -47,6 +44,9 @@ export async function timefyFunctionSafe(
 // ---------------------------------- //
 //             For debug              //
 // ---------------------------------- //
+
+import { Console } from 'console';
+global.console = new Console(process.stdout, process.stderr);
 
 export function JSONstringifyArray(obj: any): string {
   return JSON.stringify(obj, (k, v) => {

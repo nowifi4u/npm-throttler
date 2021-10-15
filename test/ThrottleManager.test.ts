@@ -198,7 +198,7 @@ describe('ThrottleManager', () => {
       expect(throttlemanager.use(id1)).toEqual(true);
 
       const result = await timefyFunction(makePromiseEmit, id1, duration * 2);
-      expect(result.time).toBeWithin(duration, duration + 100 + 1);
+      expect(result.time).toBeWithin(duration - 100, duration + 100);
     });
 
     it('should not emit after #stop(id)', async () => {
